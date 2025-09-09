@@ -95,6 +95,23 @@ function App() {
               Мы создаём ИИ-решения, которые понимают людей глубже данных. 
               От HR-автоматизации до персональных ассистентов — технологии будущего уже здесь.
             </p>
+            
+            {/* Prominent Telegram Bot Button */}
+            <div className="mb-8">
+              <a
+                href="https://t.me/nomira_ai_bot"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center bg-gradient-to-r from-green-500 to-emerald-600 text-white py-5 px-10 rounded-2xl text-xl font-bold hover:shadow-2xl transition-all transform hover:-translate-y-2 hover:scale-105 border-4 border-white shadow-xl"
+              >
+                <svg className="w-8 h-8 mr-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                </svg>
+                Хотите понять как использовать ИИ в вашем бизнесе - переходите сюда
+                <ArrowRight className="w-6 h-6 ml-3" />
+              </a>
+            </div>
+            
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={() => scrollToSection('services')}
@@ -880,7 +897,7 @@ function App() {
               </div>
               
               <a
-                href="https://t.me/nomira_ai"
+                href="https://t.me/nomira_ai_bot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-gradient-to-r from-purple-600 to-blue-600 text-white py-4 px-8 rounded-xl text-lg font-semibold hover:shadow-xl transition-all transform hover:-translate-y-1"
@@ -893,7 +910,7 @@ function App() {
               </a>
               
               <p className="text-sm text-gray-500 mt-4">
-                @nomira_ai
+                @nomira_ai_bot
               </p>
             </div>
           </div>
