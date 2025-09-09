@@ -611,6 +611,199 @@ function App() {
             </div>
           </div>
         </div>
+          {/* Additional AI Solutions */}
+          <div className="mb-20">
+            <div className="text-center mb-12">
+              <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                Дополнительные ИИ-решения
+              </h3>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Специализированные решения для различных отраслей и задач
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {/* 3D-Terra */}
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-blue-600">
+                <div className="flex items-center mb-4">
+                  <span className="text-2xl mr-3">🚁</span>
+                  <h4 className="text-lg font-bold text-gray-900">3D-Terra</h4>
+                </div>
+                <p className="text-gray-600 text-sm mb-3">
+                  Дроны и 3D-моделирование для строительства, добычи и инфраструктуры
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Строительство</span>
+                  <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Добыча</span>
+                </div>
+              </div>
+
+              {/* AIcast Studio */}
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-purple-600">
+                <div className="flex items-center mb-4">
+                  <span className="text-2xl mr-3">📻</span>
+                  <h4 className="text-lg font-bold text-gray-900">AIcast Studio</h4>
+                </div>
+                <p className="text-gray-600 text-sm mb-3">
+                  Автоматизация радиоконтента: погода, новости, гороскопы
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Медиа</span>
+                  <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Контент</span>
+                </div>
+              </div>
+
+              {/* Компьютерное зрение */}
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-green-600">
+                <div className="flex items-center mb-4">
+                  <span className="text-2xl mr-3">👁️</span>
+                  <h4 className="text-lg font-bold text-gray-900">Компьютерное зрение</h4>
+                </div>
+                <p className="text-gray-600 text-sm mb-3">
+                  Подсчет паллет, контроль логистики, мониторинг ТБ на складах
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Склады</span>
+                  <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Безопасность</span>
+                </div>
+              </div>
+
+              {/* SupportBot */}
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-orange-600">
+                <div className="flex items-center mb-4">
+                  <span className="text-2xl mr-3">🤖</span>
+                  <h4 className="text-lg font-bold text-gray-900">SupportBot</h4>
+                </div>
+                <p className="text-gray-600 text-sm mb-3">
+                  ИИ-автоматизация клиентской поддержки с базой знаний 24/7
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded">Поддержка</span>
+                  <span className="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded">24/7</span>
+                </div>
+              </div>
+
+              {/* TravelBot */}
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-teal-600">
+                <div className="flex items-center mb-4">
+                  <span className="text-2xl mr-3">✈️</span>
+                  <h4 className="text-lg font-bold text-gray-900">TravelBot</h4>
+                </div>
+                <p className="text-gray-600 text-sm mb-3">
+                  Персональный подбор туров через Telegram-бота
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-teal-100 text-teal-800 text-xs px-2 py-1 rounded">Туризм</span>
+                  <span className="bg-teal-100 text-teal-800 text-xs px-2 py-1 rounded">Telegram</span>
+                </div>
+              </div>
+
+              {/* ИИ-видеоаналитика */}
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-red-600">
+                <div className="flex items-center mb-4">
+                  <span className="text-2xl mr-3">📹</span>
+                  <h4 className="text-lg font-bold text-gray-900">ИИ-видеоаналитика</h4>
+                </div>
+                <p className="text-gray-600 text-sm mb-3">
+                  Мониторинг объектов и транспорта в реальном времени
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-red-100 text-red-800 text-xs px-2 py-1 rounded">Мониторинг</span>
+                  <span className="bg-red-100 text-red-800 text-xs px-2 py-1 rounded">Безопасность</span>
+                </div>
+              </div>
+
+              {/* ИИ-ассистенты и синтез речи */}
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-indigo-600">
+                <div className="flex items-center mb-4">
+                  <span className="text-2xl mr-3">🎤</span>
+                  <h4 className="text-lg font-bold text-gray-900">ИИ-ассистенты TTS/STT</h4>
+                </div>
+                <p className="text-gray-600 text-sm mb-3">
+                  Автоматизация коммуникаций и генерация аудиоконтента
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Голос</span>
+                  <span className="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Аудио</span>
+                </div>
+              </div>
+
+              {/* Корпоративные LLM */}
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-pink-600">
+                <div className="flex items-center mb-4">
+                  <span className="text-2xl mr-3">🏢</span>
+                  <h4 className="text-lg font-bold text-gray-900">Корпоративные LLM</h4>
+                </div>
+                <p className="text-gray-600 text-sm mb-3">
+                  Чат-боты, аналитика документов, внутренняя автоматизация
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-pink-100 text-pink-800 text-xs px-2 py-1 rounded">Корпоративный</span>
+                  <span className="bg-pink-100 text-pink-800 text-xs px-2 py-1 rounded">Документы</span>
+                </div>
+              </div>
+
+              {/* Генератор документации */}
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-yellow-600">
+                <div className="flex items-center mb-4">
+                  <span className="text-2xl mr-3">📋</span>
+                  <h4 className="text-lg font-bold text-gray-900">Генератор документации</h4>
+                </div>
+                <p className="text-gray-600 text-sm mb-3">
+                  Ускорение подготовки отчетов для аудиторов
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded">Аудит</span>
+                  <span className="bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded">Отчеты</span>
+                </div>
+              </div>
+
+              {/* Автоматизация пресейла */}
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-cyan-600">
+                <div className="flex items-center mb-4">
+                  <span className="text-2xl mr-3">💼</span>
+                  <h4 className="text-lg font-bold text-gray-900">Автоматизация пресейла</h4>
+                </div>
+                <p className="text-gray-600 text-sm mb-3">
+                  Генерация коммерческих предложений и документов
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-cyan-100 text-cyan-800 text-xs px-2 py-1 rounded">Продажи</span>
+                  <span className="bg-cyan-100 text-cyan-800 text-xs px-2 py-1 rounded">КП</span>
+                </div>
+              </div>
+
+              {/* Агент базы данных */}
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-emerald-600">
+                <div className="flex items-center mb-4">
+                  <span className="text-2xl mr-3">🗄️</span>
+                  <h4 className="text-lg font-bold text-gray-900">Агент базы данных</h4>
+                </div>
+                <p className="text-gray-600 text-sm mb-3">
+                  Автоматические ответы и аналитика для бизнеса
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-emerald-100 text-emerald-800 text-xs px-2 py-1 rounded">База данных</span>
+                  <span className="bg-emerald-100 text-emerald-800 text-xs px-2 py-1 rounded">Аналитика</span>
+                </div>
+              </div>
+
+              {/* Корпоративный ИИ для разработчиков */}
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-violet-600">
+                <div className="flex items-center mb-4">
+                  <span className="text-2xl mr-3">👨‍💻</span>
+                  <h4 className="text-lg font-bold text-gray-900">ИИ для разработчиков</h4>
+                </div>
+                <p className="text-gray-600 text-sm mb-3">
+                  Рост продуктивности разработки до 95%
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-violet-100 text-violet-800 text-xs px-2 py-1 rounded">Разработка</span>
+                  <span className="bg-violet-100 text-violet-800 text-xs px-2 py-1 rounded">+95%</span>
+                </div>
+              </div>
+            </div>
+          </div>
       </section>
 
       {/* About Section */}
