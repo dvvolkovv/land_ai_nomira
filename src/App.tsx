@@ -15,6 +15,7 @@ import {
   Calendar,
   HeadphonesIcon,
   ChevronDown,
+  Menu,
   X
 } from 'lucide-react';
 
