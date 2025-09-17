@@ -87,11 +87,11 @@ function App() {
                 <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-purple-600 transition-colors text-left">
                   Услуги
                 </button>
-                <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-purple-600 transition-colors text-left">
-                  О нас
-                </button>
-                <button onClick={() => scrollToSection('contact')} className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all text-center">
-                  Связаться
+                <button
+                  onClick={() => setCurrentPage('fintech')}
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Финтех
                 </button>
               </div>
             </div>
