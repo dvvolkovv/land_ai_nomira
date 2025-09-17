@@ -18,6 +18,7 @@ import {
   Menu,
   X
 } from 'lucide-react';
+import FintechPage from './components/FintechPage';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -27,6 +28,10 @@ function App() {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
     setIsMenuOpen(false);
   };
+  
+  if (currentPage === 'fintech') {
+    return <FintechPage onBack={() => setCurrentPage('home')} />;
+  }
 
   return (
     <div className="min-h-screen bg-white">
