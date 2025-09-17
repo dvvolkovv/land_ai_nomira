@@ -18,20 +18,14 @@ import {
   Menu,
   X
 } from 'lucide-react';
-import FintechPage from './components/FintechPage';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('home');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const scrollToSection = (sectionId: string) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
     setIsMenuOpen(false);
   };
-  
-  if (currentPage === 'fintech') {
-    return <FintechPage onBack={() => setCurrentPage('home')} />;
-  }
 
   return (
     <div className="min-h-screen bg-white">
@@ -52,12 +46,6 @@ function App() {
               <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-purple-600 transition-colors">
                 Услуги
               </button>
-              <button 
-                onClick={() => setCurrentPage('fintech')}
-                className="text-gray-600 hover:text-blue-600 transition-colors"
-              >
-                Финтех
-              </button>
               <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-purple-600 transition-colors">
                 О нас
               </button>
@@ -71,12 +59,6 @@ function App() {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-            </button>
-            <button
-              onClick={() => setCurrentPage('fintech')}
-              className="text-gray-600 hover:text-blue-600 transition-colors"
-            >
-              Финтех
             </button>
           </div>
 
