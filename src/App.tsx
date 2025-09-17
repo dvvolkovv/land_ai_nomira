@@ -70,6 +70,15 @@ function App() {
                 <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-purple-600 transition-colors text-left">
                   Услуги
                 </button>
+                <button
+                  onClick={() => {
+                    setCurrentPage('fintech');
+                    setIsMenuOpen(false);
+                  }}
+                  className="block w-full text-left px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md"
+                >
+                  Финтех
+                </button>
                 <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-purple-600 transition-colors text-left">
                   О нас
                 </button>
