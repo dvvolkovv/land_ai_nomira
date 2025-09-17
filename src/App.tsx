@@ -138,7 +138,7 @@ function App() {
               Наши ИИ-решения
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              От найма сотрудников до управления финансами — комплексная экосистема ИИ для вашего бизнеса
+              Все наши решения основаны на ценностно-ориентированном подходе к человеку, что позволяет показать взаимодействие на глубоком уровне, с этими продуктами можно строить бирюзовые компании быстрее чем вы можете себе представить.
             </p>
           </div>
 
@@ -834,37 +834,6 @@ function App() {
               Мы не просто создаём технологии — мы создаём будущее, где ИИ понимает людей
             </p>
           </div>
-
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">
-              Наша философия ИИ
-            </h2>
-            
-            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 mb-12 text-left">
-              <div className="max-w-3xl mx-auto space-y-6">
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  <strong className="text-indigo-600">Основой и платформой нашего ИИ</strong> является персональный, личностный и, самое главное, 
-                  <strong className="text-indigo-600"> ценностно-ориентированный подход</strong> к пониманию потребностей человека. 
-                  Это позволяет более глубоко и персонально давать предложения, а также соединять людей по ценностям, 
-                  что делает возможным долгосрочное и эффективное сотрудничество.
-                </p>
-                
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  <strong className="text-indigo-600">Ядром любого ИИ</strong> в общении с человеком является понимание его ценностей, 
-                  видения мира, желаний и намерений. Мы создаем продукт, в котором это ядро как MCP сервер встраивается 
-                  в алгоритмы взаимодействий и позволяет получать высокие результаты.
-                </p>
-                
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  <strong className="text-indigo-600">Дерево графов личных данных</strong> соединяет людей в разных сферах, 
-                  проводит глубоко ценностный нетворкинг и помогает объединять людей качественно и эффективно.
-                </p>
-              </div>
-            </div>
-            
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4 mx-auto">
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <div className="text-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
