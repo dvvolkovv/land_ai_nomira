@@ -15,11 +15,11 @@ import {
   Calendar,
   HeadphonesIcon,
   ChevronDown,
-  Menu,
   X
 } from 'lucide-react';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('home');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const scrollToSection = (sectionId: string) => {
