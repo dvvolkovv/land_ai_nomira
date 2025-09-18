@@ -47,8 +47,10 @@ function App() {
               <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-purple-600 transition-colors">
                 Услуги
               </button>
-              <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-purple-600 transition-colors">
-                Услуги
+              <button onClick={() => {
+                    setCurrentPage('fintech');
+                  }}} className="text-gray-700 hover:text-purple-600 transition-colors">
+                Финтех
               </button>
               <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-purple-600 transition-colors">
                 О нас
@@ -79,8 +81,7 @@ function App() {
                     setIsMenuOpen(false);
                   }}
                   className="block w-full text-left px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md"
-                >
-                  Финтех
+                >Финтех
                 </button>
                 <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-purple-600 transition-colors text-left">
                   О нас
