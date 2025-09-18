@@ -51,7 +51,6 @@ function App() {
                 setCurrentPage('fintech');
                 setIsMenuOpen(false);
               }} className="text-gray-700 hover:text-purple-600 transition-colors">
-              }} className="text-gray-700 hover:text-purple-600 transition-colors">
                 Финтех
               </button>
               <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-purple-600 transition-colors">
